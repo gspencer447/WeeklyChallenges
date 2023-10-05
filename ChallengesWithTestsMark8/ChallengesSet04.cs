@@ -89,8 +89,8 @@ namespace ChallengesWithTestsMark8
             {
                 if (number % 2 == 0)
                 {
-                    sumEvens += number;
-                    countEvens++;
+                    sumEvens += number; //adding up the evens
+                    countEvens++; //counting the number of evens
                 }
             }
             if (countEvens == 0)
