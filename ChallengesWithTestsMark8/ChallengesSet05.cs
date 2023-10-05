@@ -59,7 +59,6 @@ namespace ChallengesWithTestsMark8
 
         public string TurnWordsIntoSentence(string[] words)
         {
-            int count = 0;
             if (words == null || words.Length == 0)
             {
                 return "";
@@ -83,7 +82,6 @@ namespace ChallengesWithTestsMark8
                     sentence += word + ".";
                 }
             }
-
             return sentence;
         }
 
